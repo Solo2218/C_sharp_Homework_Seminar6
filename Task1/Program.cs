@@ -2,8 +2,6 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3
 
-using System.Runtime.Serialization.Formatters;
-
 Console.Write("Введите размер массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] userArray = GetUserArray(size);
